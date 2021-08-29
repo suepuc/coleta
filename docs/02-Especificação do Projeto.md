@@ -70,3 +70,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 |RE-02| O aplicativo deve utilizar conhecimentos de SQL e Modelagem de Dados, Engenharia de Requisitos de Software, Programação Modular, Algoritmos e Estruturas de Dados, Desenvolvimento Web Back End e Front End e Fundamentos de Redes de Computadores.  |
 |RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
+
+## Diagrama de Casos de Uso
+
+![Diagrama de Caso de Uso](https://images2.imgbox.com/47/ca/7JjjQd7T_o.png)
+
