@@ -27,50 +27,46 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Esta seção apresenta os requisitos funcionais e não funcionais do projeto, com suas respectivas descrições e prioridades de implementação. 
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+Os requisitos funcionais representam as necessidades, características e recursos fornecidos pelo Colet@.
+
+
+|ID           | Descrição do Requisito  | Prioridade |
+|-------------|------------------------------|----|
+| RF-001 | A plataforma deverá permitir um CRUD de pontos de coleta. | ALTA | 
+| RF-002 | O usuário poderá visualizar, através de uma interface intuitiva e amigável, a localização do ponto de coleta.  | ALTA |
+| RF-003 | O usuário terá um link para a plataforma do Google Maps, caso deseje visualizar o caminho até o ponto de coleta escolhido. | ALTA | 
+| RF-004 | O usuário poderá buscar pontos de coleta seletiva por bairros de Belo Horizonte. | ALTA | 
+| RF-005 | O usuário poderá buscar pontos de coleta para lixo eletrônico.  | ALTA | 
+| RF-006 | Login para administrador com autorização para operações CRUD de pontos de coleta. | MÉDIA | 
+| RF-007 | A plataforma poderá ser reutilizada em outras cidades. | MÉDIA | 
+
 
 
 ### Requisitos não Funcionais
 
+Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos. 
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Obtenção e atualização dos dados de pontos de coleta seletiva em Belo Horizonte e Região Metropolitana. | ALTA | 
+|RNF-002| Plataforma online gratuita para hospedagem da página (Heroku). | ALTA | 
+|RNF-003| Banco de dados gratuito para armazenamento da informação (MySql). | ALTA | 
+|RNF-004| Implementação de Back-end com linguagem a ser definida. | ALTA | 
+|RNF-005| Integração com a API do Google Maps para visualização, em forma de mapa, dos pontos de coleta.| ALTA | 
+|RNF-006| Definição de um modelo de criação e inserção de dados que facilite a reutilização e constante atualização da plataforma. | MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 15/12/2021. |
+|RE-02| O aplicativo deve utilizar conhecimentos de SQL e Modelagem de Dados, Engenharia de Requisitos de Software, Programação Modular, Algoritmos e Estruturas de Dados, Desenvolvimento Web Back End e Front End e Fundamentos de Redes de Computadores.  |
+|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
