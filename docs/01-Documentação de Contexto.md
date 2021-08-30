@@ -21,7 +21,7 @@ O problema que se busca solucionar é a falta de conhecimento disponível ao usu
 O objetivo geral deste trabalho é a criação de uma plataforma web que facilite o acesso à informação sobre o descarte ecologicamente correto dos resíduos ao centralizar e fornecer dados sobre os pontos de coleta seletiva no município de Belo Horizonte e Região Metropolitana.
 
 Como objetivos específicos, podemos ressaltar:
-Reunir as informações sobre os pontos oficiais de coleta seletiva no município de Belo Horizonte e Região Metropolitana;
+- Reunir as informações sobre os pontos oficiais de coleta seletiva no município de Belo Horizonte e Região Metropolitana;
 - Permitir a consulta dos locais de coleta seletiva mencionados no item anterior;
 - Permitir o cadastro de novos locais de coleta seletiva na região alvo deste projeto; 
 - Exibir a informação de maneira simplificada para o usuário;
