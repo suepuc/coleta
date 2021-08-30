@@ -16,7 +16,7 @@ Plataforma que disponibiliza ao usuário informações sobre pontos de coleta se
 * Suellen Batista Dias
 * Victoria Barcelos Lima Moreira de Paula
 
-## Orientador
+## Orientadora
 
 * Simone Alves Nogueira
 
